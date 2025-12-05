@@ -26,6 +26,6 @@ We propose Coarse-to-Fine Vision Transformer, a novel approach for efficient ret
 
 1. **Coarse Stage**: Select top-k% informative patches based on attention scores
 2. **Fine Stage**: Subdivide selected coarse patches into finer tokens (2×2)
-3. **Classification**: Process selected tokens through transformer blocks
+
 
 
