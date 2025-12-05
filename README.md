@@ -10,7 +10,7 @@
 
 ## 📝 Abstract
 
-We propose CF-ViT (Coarse-to-Fine Vision Transformer), a novel approach for efficient retail product recognition. Our method identifies task-relevant tokens through a two-stage coarse-to-fine selection process, significantly reducing computational costs while maintaining high accuracy.
+We propose Coarse-to-Fine Vision Transformer, a novel approach for efficient retail product recognition. Our method identifies task-relevant tokens through a two-stage coarse-to-fine selection process, significantly reducing computational costs while maintaining high accuracy.
 
 ## 🔑 Key Features
 
@@ -29,15 +29,3 @@ We propose CF-ViT (Coarse-to-Fine Vision Transformer), a novel approach for effi
 3. **Classification**: Process selected tokens through transformer blocks
 
 
-
-
-@article{cfvit2025,
-  title={Coarse-to-Fine Task-Relevant Tokens Identification for Retail Product Recognition},
-  author={Author Names},
-  journal={Journal/Conference Name},
-  year={2025}
-}
-
-<p align="center">
-  ⭐ Star this repository to get notified when the code is released!
-</p>
