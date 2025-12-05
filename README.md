@@ -30,60 +30,15 @@ We propose CF-ViT (Coarse-to-Fine Vision Transformer), a novel approach for effi
 2. **Fine Stage**: Subdivide selected coarse patches into finer tokens (2×2)
 3. **Classification**: Process selected tokens through transformer blocks
 
-## 📊 Results
 
-| Method | Dataset | Top-1 Acc | GFLOPs | Params |
-|--------|---------|-----------|--------|--------|
-| DeiT-S | Retail-1K | - | 4.6 | 22M |
-| CF-ViT (Ours) | Retail-1K | **96.39%** | **2.1** | 22M |
 
-*More results will be added upon publication.*
 
-## 🗂️ Datasets
-
-- [Retail Product Checkout (RPC)](https://www.kaggle.com/datasets/diyer22/retail-product-checkout-dataset)
-- [RP2K](https://www.pinlandata.com/rp2k_dataset)
-- [Products-10K](https://products-10k.github.io/)
-
-## 📦 Code Release
-
-> ⏳ **The code, pretrained models, and training scripts will be made publicly available after the paper is accepted for publication.**
-
-The release will include:
-- [ ] Training code
-- [ ] Evaluation scripts
-- [ ] Pretrained models
-- [ ] Visualization tools
-- [ ] Inference demo
-
-## 📧 Contact
-
-For questions, please open an issue or contact: [your-email@example.com]
-
-## 📄 Citation
-
-If you find this work useful, please consider citing:
-
-```bibtex
 @article{cfvit2025,
   title={Coarse-to-Fine Task-Relevant Tokens Identification for Retail Product Recognition},
   author={Author Names},
   journal={Journal/Conference Name},
   year={2025}
 }
-```
-
-## 🙏 Acknowledgements
-
-This work builds upon:
-- [DeiT](https://github.com/facebookresearch/deit)
-- [timm](https://github.com/huggingface/pytorch-image-models)
-
-## 📜 License
-
-This project will be released under the [MIT License](LICENSE).
-
----
 
 <p align="center">
   ⭐ Star this repository to get notified when the code is released!
