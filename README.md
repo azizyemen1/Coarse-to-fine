@@ -6,7 +6,6 @@
 
 ## 📢 News
 
-- **[2025]** Paper submitted for review.
 - **Code will be released upon paper acceptance.**
 
 ## 📝 Abstract
@@ -16,7 +15,6 @@ We propose CF-ViT (Coarse-to-Fine Vision Transformer), a novel approach for effi
 ## 🔑 Key Features
 
 - **Coarse-to-Fine Token Selection**: Two-stage token pruning strategy that first identifies informative coarse regions, then refines with fine-grained subdivision
-- **Attention-Guided Selection**: Leverages CLS token attention to identify task-relevant image regions
 - **Computational Efficiency**: Achieves competitive accuracy with significantly reduced GFLOPs
 - **Retail-Focused**: Specifically designed for retail product recognition tasks
 
